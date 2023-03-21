@@ -18,8 +18,8 @@ with open("file", "rb") as f:
 
 encrypted = cipher.encrypt(data)
 
-client.send("file.txt".encode())
-client.send(str(file_size).encode())
+client.send("file.txt".encode(encoding='utf-8'))
+client.send(str(file_size).encode(encoding='utf-16-le'))
 client.sendall(encrypted)
 client.send(b"<END>")
 
