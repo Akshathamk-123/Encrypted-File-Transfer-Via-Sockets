@@ -1,5 +1,5 @@
 # Encrypted-File-Transfer-Via-Sockets
-This project is a part of Academic Mini-Project for the Subject Computer Networks
+This project is a part of Academic Mini-Project for the Subject Computer Networks.
 This project demonstrates an encrypted file transfer system using AES (Advanced Encryption Standard) in EAX mode. The system consists of three main components: a key generation script, a receiver (server), and a sender (client). The server receives an encrypted file from the client and decrypts it.
 
 ## Prerequisites
